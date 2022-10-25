@@ -1,0 +1,45 @@
+ANOTAÇÕES MIDIAS HTML (14/10)
+
+ ----------------------------------------------------------
+
+
+IMAGEM
+
+Img: Tag para colocar foto
+
+
+picture: para colocar foto do site, tanto Grande, media ou pequena
+para ajustar coloque: Source media type em cima do IMG, e altere os valores: 
+
+<picture>
+        <source media="(max-width: O TANTO DE PIXEL DA MAIOR FOTO+50px)" srcset="O LOCAL ONDE ESTA SUA FOTO MEDIA"type="image/png">
+        <img src="Imagens/foto-g.png"alt="Imagem flexível">
+</picture>
+
+ ----------------------------------------------------------
+AUDIO
+
+Audio src: para produzir audio
+
+Coloque esta tag: <audio src="ARQUIVO AUDIO" controls autoplay loop ></audio>
+
+<source src="" type=""> : Outra forma de colocar audio
+
+ ----------------------------------------------------------
+
+VIDEO
+
+
+Forma simples: <video src="LOCAL ONDE ESTA O VIDEO" width="TAMANHO DO VIDEO NA TELA" controls></video>
+
+
+Forma correta, para hospedar mais formatos de video:
+Digitar source src, e seguir o exemplo:
+
+    <video width="300" controls>
+        <source src="midias/Meu-Video-vimeo.m4v" type="video/mp4">
+        <source src="midias/Meu-Video-wbm.mkv" type="video/webm">
+        <source src="midias/meu-video.mp4" type="video/mp4">
+    </video>
+
+VIDEO EXERNO: Apenas ir no site, ex YouTube e colocar compartilhar, e depois incorporar, e colar no code

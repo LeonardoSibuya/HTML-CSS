@@ -1,0 +1,26 @@
+ANOTAÇÕES MIDIAS HTML (14/10)
+
+
+Img: Tag para colocar foto
+
+
+picture: para colocar foto do site, tanto Grande, media ou pequena
+para ajustar coloque: Source media type em cima do IMG, e altere os valores: 
+
+<picture>
+        <source media="(max-width: O TANTO DE PIXEL DA MAIOR FOTO+50px)" srcset="O LOCAL ONDE ESTA SUA FOTO MEDIA"type="image/png">
+        <img src="Imagens/foto-g.png"alt="Imagem flexível">
+</picture>
+
+ ----------------------------------------------------------
+
+Tamanhos: grande 1000x1000
+	     media 700x700
+		Pequena 300x300
+
+
+<picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexível">
+    </picture>

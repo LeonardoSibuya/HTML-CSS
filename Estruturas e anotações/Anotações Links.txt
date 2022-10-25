@@ -1,0 +1,21 @@
+Anotações HTML:
+
+LINKS:
+
+
+CRTL - SHIFT - P - ABBR - A : Para podermos colocar links externos em uma palavra ou frase
+
+
+target="_blank" rel="external" : Colocar isso após o link, para que ao clicar no link, abrir em uma nova pagina
+
+
+Rel= next ou prev: para mostrar ao google que o link mandara para proxima ou pagina anterior
+
+
+Rel=nofollow: para informar ao Google que voce não da aval para a pagina do link
+
+
+../ : voltar para pagina que esta fora daquela pasta
+
+
+type= : Para adicionar um link para download, procurar a frase pelo site https://www.iana.org/assignments/media-types/media-types.xhtml

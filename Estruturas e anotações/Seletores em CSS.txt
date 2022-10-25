@@ -1,0 +1,114 @@
+SELETORES EM CSS - definem o estado do elemento em css e html:
+
+
+Para identificar e separar um h1 por exemplo dos outros h1, iremos colocar um id na frente do h1 e destacar como principal, e em css iremos colocar h1#principal.
+
+EX: HTML-	<h1 id="principal">Criando sites em HTML e CSS</h1> 
+	
+	CSS-		   h1#principal {
+       		   text-align: center;
+       	 	   color: #176900;
+			   }
+
+---------------------------------------------------------------------
+
+
+EM HTML é id, em CSS é #
+
+
+Em HTML é class, em CSS é .
+
+
+Id é unico, so usamos 1 id para cada tag, e class podemos repetir em mais de uma tag.
+
+Para colocarmos a mesma class no CSS, podemos colocar apenas ".nome" que dermos no HTML, e não precisa específicar h1.nome.
+
+
+Para colocar um class no meio do texto e fora de h1,2 e por ai vai, envelopamos a palavra ou frase com span, e escrevemos class e o nome.
+
+---------------------------------------------------------------------
+
+PSEUDO CLASSES:
+
+
+
+: usamos para pseudo classe.
+
+EX- div: hover {} para mudar a ação, cor ou estado daquela div.
+
+        div: hover {
+            background-color: yellow;
+        		   }
+
+
+
+Para escondermos um texto de uma div, usamos:
+
+div > p (de paragrafo) {
+				   display:none
+					}
+
+
+
+:visited - para mudar o texto quando visitamos aquele link
+
+
+:active - para mudarmos o texto quando clicarmos nele
+
+
+::after ou ::before para acresertamos informações no link por exemplo
+
+
+transition-duration: para mudar o tempo de uma transição quando passamos o mouse em cima, exemplo do a:hover
+
+
+EX: .especial::after {
+            content: 'COLOCAR CONTEUDO';
+        			} 
+
+
+---------------------------------------------------------------------
+
+
+Variavel em CSS:
+
+digitar :root {}
+
+ex:
+	:root {
+  --cor0: #c5ebd6;
+  --cor1: #83e1ad;
+  --cor2: #3ddc84;
+  --cor3: #2fa866;
+  --cor4: #1a5c37;
+  --cor5: #063d1e;
+}
+
+
+---------------------------------------------------------------------
+
+Redimensionar video externo:
+
+
+precisamos criar uma DIV para o video, e na div fazer o fundo, definir a margem e o padding, e colocar o position relative.
+
+após isso, precisamos criar uma div.video > iframe, para mexer no link em si, colocando o position absolute e usar a % para definir o tamanho, do top e de left, e altura e largura.
+
+EX: 
+
+div.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

@@ -1,0 +1,37 @@
+Exemplo de estrutura de CSS externo:
+
+
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100;*/
+}
+
+body {
+        background-image: linear-gradient(to left, #019592, #036f6d);
+}
+
+main {
+        background-color: rgb(223, 224, 195);
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #034e4d;
+        width: 600px;
+        padding: 10px;
+        margin: auto;
+}
+
+h1 {
+    color: #ca9392;
+    text-align: center;
+    text-shadow: 2px 2px 2px #987170;
+}
+
+h2 {
+    color: #d5af23;
+    text-shadow: 1px 1px 1px #ae8e1c;
+}
+
+p {
+    text-align: justify;
+}

@@ -1,0 +1,43 @@
+Anotações HTML/CSS:
+
+
+
+- A linguagem de HTML é focada em conteudo.
+
+- CSS é focada em design e atrativo visual
+
+- JS é focada em interatividade
+
+----------------------------------------------
+
+
+HTML usa <> ou </> no inicio e fim
+
+p para paragrafo
+
+h1 para titulo
+
+br para pular linha
+
+
+----------------------------------------------
+
+
+CSS usa {
+    	    font-family: arial;
+	    Font-size: 20pt;
+	    color: bluse;
+	   }
+
+
+----------------------------------------------
+
+Emoji: &#x e o codigo da emojipedia e ;
+
+----------------------------------------------
+
+Formato de imagem:
+
+JPEG: Imagem grande e com melhor compactação
+
+PNG: Sem fundo E mais qualidade
