@@ -229,6 +229,25 @@ Para colocar espaço no emoji, usar '\00A0'
 Para colocar imagem de fundo usar: background-image: url ()
 
 
-ackground-position: Para colocar a parte da imagem que vai aparecer.
+background-position: Para colocar a parte da imagem que vai aparecer.
 
 EX: background-position: right bottom; assim vai aparecer a parte de baixo na direita da imagem que vc escolheu
+
+
+background-size: para o tamanho da imagem do background.
+
+
+background-repeat: para repetir aquela imagem ou não repetir
+
+
+
+height: 100vh;: para usar 100% do tamanho do site
+
+
+background-size: cover: para preenhcer 100% da tela com cortes.
+
+
+background-size: contain: sem cortes
+
+
+background-attachment: fixed: imagem ficar travada ao fundo enquanto o conteudo é rolado para baixo
