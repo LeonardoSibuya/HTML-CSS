@@ -251,3 +251,17 @@ background-size: contain: sem cortes
 
 
 background-attachment: fixed: imagem ficar travada ao fundo enquanto o conteudo é rolado para baixo
+
+
+
+---------------------------------------------------------------------
+
+
+
+Para centralizar uma imagem na horizontal, usamos margin auto, porém na vertical temos que separar os conteudos.
+
+Precisamos colocar a imagem de fundo com: position: relative;
+
+e colocar a imagem que queremos centralizar na vertical, com position: absolute;
+
+e usar a tag, transform, ex: transform: translate(-50%, -50%);
