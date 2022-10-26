@@ -223,3 +223,12 @@ para colocar um emoji na lista, usar: list-style-type: '\CODIGO DO EMOJI'
 
 
 Para colocar espaço no emoji, usar '\00A0'
+
+---------------------------------------------------------------------
+
+Para colocar imagem de fundo usar: background-image: url ()
+
+
+ackground-position: Para colocar a parte da imagem que vai aparecer.
+
+EX: background-position: right bottom; assim vai aparecer a parte de baixo na direita da imagem que vc escolheu
