@@ -100,6 +100,12 @@ Text-align: center - para centralizar
 text-indent: para espaço no paragrafo
 
 
+text-transform: uppercase: para colocar todas as letras em maiusculas
+
+
+font-variant: small-caps: todas as letras maiusculas, mas com as iniciais maiores
+
+
 Para mudar familia da fonte, colocar: font-family:
 
 
@@ -242,6 +248,9 @@ background-repeat: para repetir aquela imagem ou não repetir
 
 
 height: 100vh;: para usar 100% do tamanho do site
+
+
+vw: para ajustar o tamanho do conteudo com o tamanho do site
 
 
 background-size: cover: para preenhcer 100% da tela com cortes.
