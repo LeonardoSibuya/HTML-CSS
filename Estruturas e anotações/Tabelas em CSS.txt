@@ -1,0 +1,22 @@
+TABELAS EM CSS:
+
+Hierarquia de tablea:
+
+
+
+table: tabela
+
+
+table row: linha de tablea: tr
+
+
+table header: cabeçalho de tabela
+
+
+table data: dado de tabela: td
+
+
+border-collapse: collapse; para juntar as linhas da tabela
+
+
+vertical-align: para alinhar verticalmente
