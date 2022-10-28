@@ -1,6 +1,6 @@
 TABELAS EM CSS:
 
-Hierarquia de tablea:
+Hierarquia de table pequenas:
 
 
 
@@ -20,3 +20,52 @@ border-collapse: collapse; para juntar as linhas da tabela
 
 
 vertical-align: para alinhar verticalmente
+
+
+----------------------------------------------------------------------
+
+Hierarquia de table grande:
+
+
+THEAD, pode ter tr, td e th
+
+TBODY, pode ter tr, td e th
+
+TFOOT, pode ter tr, td e th
+
+---------------------------------------------------------------------
+
+Caption: Legenda da tabela, não tem separação e naturalmente fica em cima do thead.
+
+
+---------------------------------------------------------------------
+
+Scope = col: para falar que é o escopo e titulo da coluna
+
+Scope = row: para falar que é o escopo e titulo da linha
+
+
+para efeito zebrado, usamos a pseudo clase :nth-child(2n).
+
+
+EX:         tbody > tr:nth-child(2n) {
+            background-color: #8080804d;
+        		}
+
+inves de (2n) que é para começar na linha par, podemos usar odd para impar e even para par.
+
+---------------------------------------------------------------------
+
+
+Para uma celular ocupar duas colunas, utilizamos colspan="2", dentro de HTML. 
+
+EX: <td colspan="2">B</td>
+
+
+rowspan: para ocupar linhas.
+
+EX: 	   <tr>
+            <td>D</td>
+            <td>E</td>
+            <td rowspan="3">F</td>
+        </tr>
